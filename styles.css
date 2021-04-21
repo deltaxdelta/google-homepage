@@ -1,3 +1,8 @@
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
 .box {
     display: flex;
 }
@@ -5,3 +10,4 @@
 .block {
     display: block;
 }
+
