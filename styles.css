@@ -20,6 +20,8 @@ body {
 a {
     color: #222;
     text-decoration: none;
+    display: inline-block;
+    padding: 10px;
 
 }
 
@@ -28,7 +30,16 @@ a:hover {
 }
 
 a.left {
-    display: inline-block;
-    padding: 10px;
     
+    
+}
+
+
+#apps_icon {
+    height: 35px;
+}
+
+#avatar {
+    height: 35px;
+    border-radius: 50%;
 }
