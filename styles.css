@@ -82,10 +82,13 @@ a:hover {
 .container {
     display: flex;
     flex-flow: row;
+    
+}
+
+.header {
     height: 48px;
     align-items: center;
 }
-
 
 .nav {
     
@@ -97,7 +100,10 @@ a:hover {
 }
 
 .img_wrap {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
 }
 
 #apps_icon {
@@ -106,6 +112,13 @@ a:hover {
 
 #avatar {
     border-radius: 50%;
-    max-height: 32px;
+    max-height: 32px; 
+}
+
+#logo_area {
+    
+}
+
+#logo {
     
 }
