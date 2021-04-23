@@ -1,10 +1,11 @@
-body {
+/* body {
     font-size: 14px;
     font-family: arial, sans-serif;
 }
 
 .box {
     display: flex;
+
 }
 
 .block {
@@ -17,6 +18,26 @@ body {
     padding: 6px;
 }
 
+.container1 {
+    display: flex;
+}
+
+.flex_item1 {
+    justify-content: flex-end;
+}
+
+#right_nav {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.float_right {
+    float: right;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
 a {
     color: #222;
     text-decoration: none;
@@ -29,10 +50,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a.left {
-    
-    
-}
 
 
 #apps_icon {
@@ -42,4 +59,20 @@ a.left {
 #avatar {
     height: 35px;
     border-radius: 50%;
+} */
+
+.container {
+    display: flex;
+    flex-flow: row;
+    height: 48px;
+}
+
+
+.nav {
+    background: darkgrey;
+    padding: 15px;
+}
+
+.push {
+    margin-left:auto;
 }
