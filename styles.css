@@ -119,5 +119,33 @@ a:hover {
 
 #logo {
     max-width: 100%
-    height: auto;
+
+}
+
+.SearchArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.SearchContainer {
+    height:fit-content;
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 110px;
+    border-color:gray;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    
+}
+
+.fa-microphone {
+    color: blue;
+    
 }
