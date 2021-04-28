@@ -127,6 +127,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-top: 35px;
+    
 }
 
 .SearchContainer {
@@ -136,16 +137,32 @@ a:hover {
     border-style: solid;
     border-radius: 110px;
     border-color:gray;
-    
+    min-width: 60%;  
+}
+
+.FlexWrapper {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.item1 {
+    flex: 0;
+}
+
+.item2 {
+    flex: 10;
+}
+
+.item3 {
+    flex:0;
 }
 
 input {
     border: none;
-    outline: none;
-    
+    outline: none; 
 }
 
-.fa-microphone {
-    color: blue;
-    
+.micIcon {
+    color: blue; 
 }
