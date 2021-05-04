@@ -104,7 +104,14 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+#logo {
+
+    width: 40%;
+    height: auto;
+
 }
 
 #apps_icon {
@@ -205,6 +212,12 @@ button:hover {
     box-shadow: 0px 2px #d4d4d4;
 }
 
+.WhiteSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .NonsenseLink {
     display: flex;
     justify-content: center;
@@ -216,3 +229,61 @@ button:hover {
     color: darkblue;
 }
 
+.theVoid {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-height: 50px;
+}
+
+.footerArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    
+}
+
+.BragArea {
+    text-align: center;
+    order: 0;
+    flex: 1 0 100%;
+    padding-bottom: 30px;
+    
+}
+
+.bottomNav1 {
+    order: 1;
+}
+
+.bottomNav2 {
+    order: 3;
+}
+
+.footerLink {
+    background-color: transparent;
+    color: #70757a;
+    padding: 15px;
+}
+
+.footerLink:visited {
+    color: #70757a;
+}
+
+@media screen and (min-width: 1200px) {
+    .BragArea {
+        
+        order: 2;
+        flex: 0 0 auto;
+        padding-top: 20px;
+    }
+
+    .bottomNav1 {
+        padding-top: 20px;
+    }
+
+    .bottomNav2 {
+        padding-top: 20px;
+    }
+}
