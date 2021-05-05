@@ -64,6 +64,9 @@ a:hover {
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 a {
@@ -230,7 +233,6 @@ button:hover {
 }
 
 .theVoid {
-    display: flex;
     flex-grow: 1;
     flex-shrink: 0;
     min-height: 50px;
@@ -272,18 +274,19 @@ button:hover {
 }
 
 @media screen and (min-width: 1200px) {
+    .footerArea {
+        padding: 0px 5px 20px 20px;
+    }
+
+    .footerLink {
+        vertical-align: -100%;
+    }
+
     .BragArea {
-        
         order: 2;
         flex: 0 0 auto;
-        padding-top: 20px;
-    }
-
-    .bottomNav1 {
-        padding-top: 20px;
-    }
-
-    .bottomNav2 {
-        padding-top: 20px;
+        padding: 0px;
     }
 }
+
+/* try to align footer links w/o padding, then fix whitespace */
