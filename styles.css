@@ -67,6 +67,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    min-height: 100vh;
 }
 
 a {
@@ -138,6 +139,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-top: 35px;
+    margin: 0 auto;
     
 }
 
@@ -148,7 +150,10 @@ a:hover {
     border-style: solid;
     border-radius: 110px;
     border-color: lightgray;
-    min-width: 60%;  
+    margin: 0 auto;
+    max-width: 700px; 
+    min-width: 368px;
+     
 }
 
 .SearchContainer:hover {
@@ -236,7 +241,7 @@ button:hover {
 .theVoid {
     flex-grow: 1;
     flex-shrink: 0;
-    min-height: 50px;
+    
 }
 
 .footerArea {
@@ -274,6 +279,8 @@ button:hover {
     color: #70757a;
 }
 
+/* for embiggening */
+
 @media screen and (min-width: 1200px) {
     .footerArea {
         padding: 0px 5px 20px 20px;
@@ -290,4 +297,16 @@ button:hover {
     }
 }
 
-/* try to align footer links w/o padding, then fix whitespace */
+/* for smol */
+
+@media screen and (max-width: 619px) {
+    .BragArea {
+        padding-bottom: 15px;
+    }
+
+    .bottomNav1 {
+        padding-bottom: 15px;
+    }
+}
+
+/* fix whitespace, then work on 600px breakpoint formatting */
